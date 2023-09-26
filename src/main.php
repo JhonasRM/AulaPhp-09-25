@@ -3,6 +3,9 @@
 include_once __DIR__ . "/../vendor/autoload.php";
 
 use App\SystemServices\MonologFactory;
+use Psr\Http\Message\ResponseInterface as Response;
+use Psr\Http\Message\ServerRequestInterface as Request;
+use Selective\BasePath\BasePathMiddLeware;
 use Slim\Factory\AppFactory;
 
 $logger  = MonologFactory::getInstance();

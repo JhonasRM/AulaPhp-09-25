@@ -3,7 +3,9 @@
     "type": "project",
     "require": {
         "monolog/monolog": "^3.4",
-        "slim/slim": "^4.12"
+        "slim/slim": "^4.12",
+        "laminas/laminas-diactoros": "^3.2",
+        "selective/basepath": "^2.2"
     },
     "autoload": {
         "psr-4": {
